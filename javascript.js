@@ -1,11 +1,11 @@
 /*1*/
 function add7(number){
-    return number + 7 ;
+    return number+7 ;
 }
 
 /*2*/
-function multiply (a, b) {
-    return a * b; 
+function multiply(multiplier_1, multiplier_2){
+    return multiplier_1 * multiplier_2; 
 }
 
 /* 3*/
@@ -13,10 +13,8 @@ function capitalize(string) {
     if (typeof string !== "string" || string.length === 0) {
       return string; 
     }
-  
-    var firstupper = string.charAt(0).toUpperCase();
-    var restlower = string.slice(1).toLowerCase();
-  
+    var firstChar = string.charAt(0).toUpperCase();
+    var restOfString = string.slice(1).toLowerCase();
     return firstChar + restOfString;
   }
 
